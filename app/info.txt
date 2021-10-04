@@ -1,0 +1,10 @@
+
+# Select source directory
+eg: C:\Users\Rodrigo\Desktop\app
+
+# Virtualenviroment creation
+virtualenv <env_name>
+
+# Activate enviroment
+cd env/Scripts/.\activate
+
