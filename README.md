@@ -2,6 +2,9 @@
 
 ## Este respositorio tiene como objetivo contener el código que se ha necesitado para la elaboración del TFM, de donde se desprenden los puntos siguientes:
 
+[app](https://tfm-tdda2pscka-ew.a.run.app/)
+
+
 * [Convolutional-Regular](/Convolutional-Regular): <div class=text-justify> Se muestra el código utilizado para desarrollar cuatro propuestas genuinas de redes convolucionales para la clasificación de acuerdo a las cuatro clases de estudio. </div>
 
 1. Red Convolucional 1: Red convolucional clásica
@@ -24,8 +27,7 @@
 ![Original + Mask](/Images/original_mask.JPG)
 
 
-* [Visualización de capas convolucionales](/Layers-Visualization): El código describe la metodología necesaria para visualizar la salida de las capas convolucionales, permitiéndonos entender con mayor profundidad los patrones aprendidos por cada filtro. [app](https://tfm-tdda2pscka-ew.a.run.app/)
-
+* [Visualización de capas convolucionales](/Layers-Visualization): El código describe la metodología necesaria para visualizar la salida de las capas convolucionales, permitiéndonos entender con mayor profundidad los patrones aprendidos por cada filtro. 
 ![visualización de capas](/Images/layer_visualization.JPG)
 
 
