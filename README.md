@@ -32,7 +32,6 @@
 ![GradCAM](/Images/gradCAM.JPG):
 
 * [Applicación](/app): Por último se ofrece el modelo de una aplicación sencilla que trata de recoger la esencia de este trabajo, ofrecer una alternativa viables a un problema de aprendizaje automático. Esta aplicación tiene un funcionamiento sencillo, nos pedirá la radiografía a analizar y devolverá la afección predicha junto con la imagen original y un mapa de colores de acuerdo a la técnica gradCAM indicando los puntos críticos de dicha imagen.
-
-[app](https://tfm-tdda2pscka-ew.a.run.app/)
+[Lung-Disease-Classifier-app](https://tfm-tdda2pscka-ew.a.run.app/)
 
 ![app_](/Images/app.JPG)
