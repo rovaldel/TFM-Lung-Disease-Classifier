@@ -39,4 +39,4 @@
 * [Visual Transformer](/ViT): Esta técnica todavía incipiente ofrece un nuevo enfoque para la resolución de problemas de visión artificial basado en el `embedding` y el concepto de atención que permite encontrar relaciones entre las partes esenciales del modelo, los denominados `patches`.
 ![ViT_schema](/Images/ViT_schema.png)
 División de una imágen en 196 `patches` de tamaño 16x16:
-![ViT_16x16](/Images/ViT16x16.png)
+![ViT_16x16](/Images/ViT_16x16.png)
