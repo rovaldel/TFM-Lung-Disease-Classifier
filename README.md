@@ -25,7 +25,9 @@
 
 
 * [Visualización de capas convolucionales](/Layers-Visualization): El código describe la metodología necesaria para visualizar la salida de las capas convolucionales, permitiéndonos entender con mayor profundidad los patrones aprendidos por cada filtro. 
-![visualización de capas](/Images/layer_visualization.JPG):
+[app](/Images/layer_visualization.JPG)
+
+![visualización de capas](/Images/layer_visualization.JPG)
 
 
 * [GradCAM](/Grad-CAM): Con esta técnica se consigue visualizar a través de un mapa de colores la última capa convolucional de una determinada red pudiendo intuir las principales características que el clasificador ha determinado genuinas para esa categoría e imagen en particular. 
