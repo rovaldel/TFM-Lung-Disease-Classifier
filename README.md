@@ -31,7 +31,9 @@
 * [GradCAM](/Grad-CAM): Con esta técnica se consigue visualizar a través de un mapa de colores la última capa convolucional de una determinada red pudiendo intuir las principales características que el clasificador ha determinado genuinas para esa categoría e imagen en particular. 
 ![GradCAM](/Images/gradCAM.JPG):
 
-* [Applicación](/app): Por último se ofrece el modelo de una aplicación sencilla que trata de recoger la esencia de este trabajo, ofrecer una alternativa viables a un problema de aprendizaje automático. Esta aplicación tiene un funcionamiento sencillo, nos pedirá la radiografía a analizar y devolverá la afección predicha junto con la imagen original y un mapa de colores de acuerdo a la técnica gradCAM indicando los puntos críticos de dicha imagen.
+* [Applicación](/app): Se presenta el modelo de una aplicación sencilla que trata de recoger la esencia de este trabajo, ofrecer una alternativa viables a un problema de aprendizaje automático. Esta aplicación tiene un funcionamiento sencillo, nos pedirá la radiografía a analizar y devolverá la afección predicha junto con la imagen original y un mapa de colores de acuerdo a la técnica gradCAM indicando los puntos críticos de dicha imagen.
 [Lung-Disease-Classifier-app](https://tfm-tdda2pscka-ew.a.run.app/)
 
 ![app_](/Images/app.JPG)
+
+* [Visual Transformer](/ViT): Esta técnica todavía incipiente ofrece un nuevo enfoque para la resolución de problemas de visión artificial basado en el ´embedding´ y el concepto de atención que permite encontrar relaciones entre las partes esenciales del modelo, los denominados ´patches´.
