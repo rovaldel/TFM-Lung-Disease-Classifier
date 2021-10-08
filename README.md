@@ -2,9 +2,6 @@
 
 ## Este respositorio tiene como objetivo contener el código que se ha necesitado para la elaboración del TFM, de donde se desprenden los puntos siguientes:
 
-[app](https://tfm-tdda2pscka-ew.a.run.app/)
-
-
 * [Convolutional-Regular](/Convolutional-Regular): <div class=text-justify> Se muestra el código utilizado para desarrollar cuatro propuestas genuinas de redes convolucionales para la clasificación de acuerdo a las cuatro clases de estudio. </div>
 
 1. Red Convolucional 1: Red convolucional clásica
@@ -36,4 +33,6 @@
 
 * [Applicación](/app): Por último se ofrece el modelo de una aplicación sencilla que trata de recoger la esencia de este trabajo, ofrecer una alternativa viables a un problema de aprendizaje automático. Esta aplicación tiene un funcionamiento sencillo, nos pedirá la radiografía a analizar y devolverá la afección predicha junto con la imagen original y un mapa de colores de acuerdo a la técnica gradCAM indicando los puntos críticos de dicha imagen.
 
-![app](/Images/app.JPG)
+[app](https://tfm-tdda2pscka-ew.a.run.app/)
+
+![app_](/Images/app.JPG)
