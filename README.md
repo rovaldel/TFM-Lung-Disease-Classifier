@@ -36,4 +36,5 @@
 
 ![app_](/Images/app.JPG)
 
-* [Visual Transformer](/ViT): Esta técnica todavía incipiente ofrece un nuevo enfoque para la resolución de problemas de visión artificial basado en el ´embedding´ y el concepto de atención que permite encontrar relaciones entre las partes esenciales del modelo, los denominados ´patches´.
+* [Visual Transformer](/ViT): Esta técnica todavía incipiente ofrece un nuevo enfoque para la resolución de problemas de visión artificial basado en el `embedding` y el concepto de atención que permite encontrar relaciones entre las partes esenciales del modelo, los denominados `patches`.
+![ViT_schema](/Images/ViT_schema.png)
