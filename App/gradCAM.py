@@ -1,9 +1,8 @@
 
-import tensorflow as tf
 from tensorflow.keras.models import Model
 import numpy as np 
 import cv2
-from tensorflow import cast, reduce_mean, reduce_sum
+from tensorflow import cast, reduce_mean, reduce_sum, GradientTape, float32, multiply
 
 ## MODEL
 ## ======================================================
@@ -27,8 +26,8 @@ class GradCAM:
               outputs=[self.model.get_layer(self.layerName).output,
                   self.model.output])
   # record operations for automatic differentiation
-          with tf.GradientTape() as tape:
-              inputs = cast(image, tf.float32)
+          with GradientTape() as tape:
+              inputs = cast(image, float32)
               (convOutputs, predictions) = gradModel(inputs)
               loss = predictions[:, self.classIdx]
   # use automatic differentiation to compute the gradients
@@ -40,7 +39,7 @@ class GradCAM:
           convOutputs = convOutputs[0]
           guidedGrads = guidedGrads[0]
           weights = reduce_mean(guidedGrads, axis=(0, 1))
-          cam = reduce_sum(tf.multiply(weights, convOutputs), axis=-1)
+          cam = reduce_sum(multiply(weights, convOutputs), axis=-1)
   # resize the heatmap to oringnal X-Ray image size
           (w, h) = (image.shape[2], image.shape[1])
           heatmap = cv2.resize(cam.numpy(), (w, h))
