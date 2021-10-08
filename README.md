@@ -25,7 +25,7 @@
 
 
 * [Visualización de capas convolucionales](/Layers-Visualization): El código describe la metodología necesaria para visualizar la salida de las capas convolucionales, permitiéndonos entender con mayor profundidad los patrones aprendidos por cada filtro. 
-[app](https://tfm-tdda2pscka-ew.a.run.app/)
+[app](https://tfm-tdda2pscka-ew.a.run.app)
 
 ![visualización de capas](/Images/layer_visualization.JPG)
 
