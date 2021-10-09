@@ -1,6 +1,6 @@
 # TFM-NN-Lung-Desease-Classifier
 
-## Este respositorio tiene como objetivo contener el código que se ha necesitado para la elaboración del TFM, de donde se desprenden los puntos siguientes:
+## Este respositorio tiene como objetivo contener el código que se ha necesitado para la elaboración del TFM AYUDA AL DIAGNÓSTICO MÉDICO MEDIANTE REDES NEURONALES del MÁSTER UNIVERSITARIO EN GESTIÓN Y ANÁLISIS DE GRANDES VOLÚMENES DE DATOS: BIG DATA de donde se desprenden los puntos siguientes:
 
 * [Convolutional-Regular](/Convolutional-Regular): <div class=text-justify> Se muestra el código utilizado para desarrollar cuatro propuestas genuinas de redes convolucionales para la clasificación de acuerdo a las cuatro clases de estudio. </div>
 
