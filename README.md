@@ -1,4 +1,4 @@
-# TFM-NN-Medical-Classifier
+# TFM-NN-Lung-Desease-Classifier
 
 ## Este respositorio tiene como objetivo contener el código que se ha necesitado para la elaboración del TFM, de donde se desprenden los puntos siguientes:
 
@@ -29,7 +29,7 @@
 
 
 * [GradCAM](/Grad-CAM): Con esta técnica se consigue visualizar a través de un mapa de colores la última capa convolucional de una determinada red pudiendo intuir las principales características que el clasificador ha determinado genuinas para esa categoría e imagen en particular. 
-![GradCAM](/Images/gradCAM.JPG):
+![GradCAM](/Images/gradCAM.JPG)
 
 * [Applicación](/app): Se presenta el modelo de una aplicación sencilla que trata de recoger la esencia de este trabajo, ofrecer una alternativa viables a un problema de aprendizaje automático. Esta aplicación tiene un funcionamiento sencillo, nos pedirá la radiografía a analizar y devolverá la afección predicha junto con la imagen original y un mapa de colores de acuerdo a la técnica gradCAM indicando los puntos críticos de dicha imagen.
 [Lung-Disease-Classifier-app](https://tfm-tdda2pscka-ew.a.run.app/)
