@@ -1,4 +1,4 @@
-# TFM-NN-Lung-Desease-Classifier
+# TFM-NN-Lung-Disease-Classifier
 
 ## Este respositorio tiene como objetivo contener el código que se ha necesitado para la elaboración del TFM AYUDA AL DIAGNÓSTICO MÉDICO MEDIANTE REDES NEURONALES del MÁSTER UNIVERSITARIO EN GESTIÓN Y ANÁLISIS DE GRANDES VOLÚMENES DE DATOS: BIG DATA de donde se desprenden los puntos siguientes:
 
